@@ -13,7 +13,7 @@ class ESIEApp : Application() {
             // Android context
             androidContext(this@ESIEApp)
             // modules
-            modules(presentationModule)
+            modules(presentationModule, domainModule, dataModule)
         }
     }
 }
