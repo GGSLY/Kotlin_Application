@@ -9,9 +9,7 @@ import com.example.kotlin_application.domain.usecase.CreateUserUseCase
 import com.example.kotlin_application.domain.usecase.GetUserUseCase
 import com.example.kotlin_application.presentation.main.MainViewModel
 import org.koin.android.ext.koin.androidContext
-import org.koin.core.module.Module
 import org.koin.dsl.module
-import java.security.AccessControlContext
 
 val presentationModule = module {
 

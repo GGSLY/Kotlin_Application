@@ -13,7 +13,7 @@ interface DatabaseDAO {
 
 
     @Query("SELECT * FROM userlocal WHERE email LIKE :email LIMIT 1")
-    fun findByName(email: String): UserLocal
+    fun findByName(email: String): UserLocal?
 
     @Insert
     fun insert(user: UserLocal)
